@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    background-color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
+    color: aqua;
+}
+h1{
+    color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+}
+h1 {
+    color: aqua;
+    color: brown;
+    font-weight: 100;
+}
+h2 {
+    color: blueviolet;
+    font-style: initial   ;
+}

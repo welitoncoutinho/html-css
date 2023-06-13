@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testado o que eu ja aprendi</title>
+    <link rel="shortcut icon" href="../../exercicios/ex004/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../t007/style.css">
+    <style>
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1 id="titulopricipal">Olá, Mundo!</h1>
+        <hr>
+        <p>Eu sou Weliton!</p>
+        <p>Quero muito aprender HTML e CSS</p>
+        <h1>Eu ja aprendi</h1>
+        <h2>As tags HTML: </h2>
+        <p>&lt;p&gt;: para paragrafos</p>
+        <p>&lt;br&gt;: para quebras de linhas</p>
+        <p>&lt;hr&gt;: para uma linha horisontal</p>
+        <p>&lt;img&gt;: para imagens</p>
+        <p>&lt;h1, h2, h3, h4, h5 e h6&gt;: para titulos</p>
+        <p>&lt;link:favicon&gt;: dentro da tag &lt;head&gt; para adicionar uma favicon</p>
+        <p>&lt;strong&gt;: para destaque(negrito com semantica)</p>
+        <p>&lt;b&gt;: para negrito (sem semântica)</p>
+        <p>&lt;i&gt;: para texto em italico(sem semantica)</p>
+        <p>&lt;em&gt;: para texto com enfase(italico com semantica)</p>
+        <p>&lt;mark&gt;: para marcar o texto</p>
+        <p>&lt;big&gt;: para um texto maior (não usar por que foi removida do HTML5 por nao ter semantica)</p>
+        <p>&lt;small&gt;: para um texto menor (tem semantica)</p>
+        <p>&lt;del&gt;: para um texto deletado</p>
+        <p>&lt;ins&gt;: para um texto inserido (sublinhado com semantica)</p>
+        <p>&lt;u&gt;: para texto sublinhado(sem semantica)</p>
+        <p>&lt;code&gt;: para algum fragmento de codigo</p>
+        <p>&lt;pre&gt;: mantem a texto digitado da mesma forma que é no HTML </p>
+        <p>&lt;q&gt;: para citações simples</p>
+        <p>&lt;blockquote&gt;:para um bloco de citações</p>
+        <p>&lt;abbr&gt;: para Abreviações</p>
+        <p>&lt;ol&gt;: para listas com ordem</p>
+        <p>&lt;ul&gt;: para listas sem ordem</p>
+        <p>&lt;li&gt;: conteudo da lista</p>
+        <p>&lt;dl&gt;: para listas com definição</p>
+        <p>&lt;dt&gt;: elemento de uma lista de definição vem antes do dd</p>
+        <p>&lt;dd&gt;: definição do conteudo da tag dt</p>
+        <p>&lt;a&gt;: para hiperlink (serve para a navegação em paginas Web e download)</p>
+        <p>&lt;video&gt;: para colocar videos locais</p>
+        <p>&lt;main&gt;: para definir o conteudo pricipal do &lt;body&gt;</p>
+        <p>&lt;source&gt;:  para especificar múltiplos recursos de mídia de elementos &lt;picture&gt;&lt;audio&gt;&lt;video&gt;</p>
+
+        <p>&lt;picture&gt;: é um container usado para especificar múltiplos elementos <source> para um elemento específico &lt;img&gt; contido nele</p>
+        
+        <h2>E alguns sibolos e emojis:</h2>
+        <p>&copy; &reg; &times; &copy; &trade; &euro; &pound; &yen; &cent; &delta; &uarr; &qint; | &#x1F596; &#x270A; &#x1F90C; &#x1F914; &#x1F643; &#x1F5FF; &#x1F611; &#x1F612;</p>
+        <h2>E imagens:</h2>
+        <h3>Imagens Locais:</h3>
+        <img src="../../exercicios/ex003/logo-html.png" alt="logo-html" width="100px">
+        
+        <img src="../../exercicios/ex003/fotos/logo-css.png" alt="logo-css" width="100px">
+        
+        <h3>Imagens Externas:</h3>
+        <img src="https://a.thumbs.redditmedia.com/zDOFJTXd6fmlD58VDGypiV94Leflz11woxmgbGY6p_4.png" alt="logo-JavaScript" width="100px">
+        <h2>E favicons: </h2>
+        <img src="file:///C:/Users/welit/Documents/estudos/html-css/exercicios/ex004/favicon.ico" alt="">
+        <img src="file:///C:/Users/welit/Documents/estudos/html-css/exercicios/ex004/wfavin.ico" alt="">
+        <img src="file:///C:/Users/welit/Documents/estudos/html-css/exercicios/ex004/wicon.ico" alt="">
+        
+        <h2>E as pricipais formatações:</h2>
+        <h3>Negrito/Destaque</h3>
+        <p>Nessa frase temos um <b>termo em negrito</b> usando a tag B (Nao semântica).</p>
+        <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando tag STRONG</p>
+        <h3>Itálico/Ênfase</h3>
+        <p>Nesta frase, temos um <i>termo em Itálico</i> usando a tag I (nao semântica).</p>
+        <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica).</p>
+        <h3>Texto marcado</h3>
+        <p>Podemos criar tambem <mark>um texto marcado</mark> usando a tag MARK.</p>
+        <h3>Texto grande e pequeno</h3>
+        <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo. Com a tag BIG (nao usar por nao ter uma semantica) e a tag SMALL(tem semantica)</p>
+        <h3>Texto deletado</h3>
+        <p>Podemos marcar <del>um texto como excluido</del> para indincar que ele deve ser lido, mas nao considerado.</p>
+        <h3>Texto inserido</h3>
+        <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indincar que ele foi adicionado depois.</p>
+        <p>Existe tambem o <u>sublinhado</u> com a tag U (não semântica)</p>
+        <h3>Texto sobrescrito</h3>
+        <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+        <h3>Texto subscrito</h3>
+        <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+        
+        <h2>outras formatações</h2>
+        <h3>Código-fonte/ Pré-formatação</h3>
+        <p>O comando <code>document.getElementById('teste')</code> é escrito em liguagem JavaScript.</p>
+         <pre>
+             <code>
+            num = int(input('digite um numero'))
+            if num % 2 == 0:
+                print(f'O numero {num} é PAR')
+            else;
+                print(f'O numero {num} é IMPAR')
+            print('Fim do programa')
+             </code>
+         </pre>
+         <h3>Citações simples</h3>
+         <p>Como diria o pai de um amigo:<q> o computador é um burro muito rápido</q>.</p>
+         <h3>Citações completas</h3>
+         <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+        <blockquote cite="\books\edition\Construindo_Web_Sites_Para_Leigos_Tradu\xlLcAwAAQBAJ">A diferença entre elementos  inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+        </blockquote>
+        <h3>Abreviações</h3>
+        <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheet">CSS</abbr>. Estou adorando!</p>
+    </main>
+    <br>
+    <main>
+        <h2>E tambem listas</h2>
+        <h3>Listas Ordenadas</h3>
+        <ol>
+            <li>Acordar</li>
+            <li>Escovar dentes</li>
+            <li>Tomar café com leite </li>
+            <li>Ir tirar leite</li>
+            <li>Medir leite</li>
+            <li>Estudar um pouco</li>
+            <li>Lavar tambor</li>
+            <li>Tomar banho</li>
+            <li>Ir para a escola </li>
+            <li>Voltar da escola</li>
+            <li>Estudar</li>
+        </ol>
+        <h3>Lista nao Ordenadas</h3>
+        <ul>
+            <li>Fone</li>
+            <li>Garrafa termica com termometro</li>
+            <li>Blusa de frio</li>
+            <li>Shortes</li>
+            <li>Celular</li>
+        </ul>
+        <h3>Escolhas para celular</h3>
+        <ol>
+            <li>Xiaomi</li>
+            <ol>
+                <li>Xiaomi 12s Ultra</li>
+            </ol>
+            <ul>
+                <li>Poco</li>
+                <ol>
+                    <li>Poco M3 Pro</li>
+                    <li>Poco F3</li>
+                    <li>Pocophone F1</li>
+                </ol>
+                <li>Redmi</li>
+                <ol>
+                    <li>Redmi Note 11S</li>
+                    <li>Redmi 10C</li>
+                    <li>Redmi Note 11</li>
+                </ol>
+            </ul>
+            <li>Motorola</li>
+            <ul>
+                <li>Moto</li>
+                <ol>
+                    <li>Moto G52</li>
+                    <li>Moto G62</li>
+                </ol>
+                <li>Edge</li>
+                <ol>
+                    <li>Edge 30 neo</li>
+                    <li>Edge 30 ultra</li>
+                    <li>Edge 30 Fusion</li>
+                </ol>
+            </ul>
+            <li>Sansung</li>
+                <ol>
+                    <li>Samsung Galaxy A14 5G</li>
+                    <li>Samsung Galaxy A54</li>
+                    <li>Samsung Galaxy M53</li>
+                    <li>Samsung Galaxy A33</li>
+                </ol>
+            <li>iPhone</li>
+                <ol>
+                    <li>Apple iPhone 14 Pro Max</li>
+                    <li> Apple iPhone 13 Pro Max</li>
+                    <li>Apple iPhone 14</li>
+                </ol>
+            <li>Asus</li>
+            <ol>
+                <li>Asus Zenfone 8</li>
+                <li>Asus ROG Phone 5s</li>
+                <li>Asus Zenfone 9</li>
+                <li>Asus ROG Phone 6 Pro</li>
+            </ol>
+        </ol>
+        <h3>Listas de Definição</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>liguagem de marcação para criação de conteúdo de um site.</dd>
+            <dt>CSS</dt>
+            <dd>liguagem de marcação para desing de um site.</dd>
+            <dt>JavaScript</dt>
+            <dd>liguagem de programação para criação de interatividade de um site.</dd>
+        </dl>
+        <h2>E links</h2>
+        <h3>Usando links externos</h3>
+        <h5>Meus sites favoritos</h5>
+        <p>Gosto muito do <a href="https://mangalivre.net/">Manga Livre</a>  para ler mangas</p>
+        <p>Gosto tambem do <a href="https://myanimelist.net/">MyAnimeList</a> para ter novas sugestoes de mangas e animes</p>
+        <p>Tambem gosto do site do <a href="https://www.cursoemvideo.com/" target="_blank" rel="external">cursoemvideo</a> para estudar</p>
+        <h3>Usando links internos</h3>
+        <p>Mais informação sobre <a href="../../desafios/d005/index.htm" target="_self" rel="next">Weliton</a> o autor desse a site</p>
+        <p><a href="../../desafios/d009/index.html">Progeto mais recente do autor</a></p>
+        <h3>Links para download</h3>
+        <ul>
+            <li><a href="meulivro/meulivro.pdf" download="meulivro.pdf" type="application/x-pdf">Baixar livro do autor em PDF</a></li>
+            <li><a href="meulivro/meulivro.zip" download="meulivro.zip" type="application/zip">Livro compactado em ZIP</a></li>
+        </ul>
+    </main>
+
+    <br>
+    <main style="background-color: azure;">
+        <h2>E videos</h2>
+        <h3>Inserindo vídeos hospedados localmente</h3>
+        <video width="500px" controls>
+            <source src="videos/pexels-clément-proust-15613729-960x540-30fps.mp4" type="video/mp4">
+            <source src="videos/Pexels-Clément-Proust-15613729-960X540-30Fps.mkv" type="video/mp4">
+            <source src="videos/Pexels-Clément-Proust-15613729-960X540-30Fps.webm" type="video/webm">
+        </video>
+        <h3>Inserindo videos do YouTube</h3>
+        <h5>Trailer de filmes que eu quero assistir esse ano:</h5>
+        <a href="black.html" target="_self"><img src="https://i.ytimg.com/vi/G4zvEVOkOk4/maxresdefault.jpg" alt="" width="430px"></a>
+        
+        <a href="guardioes.html" target="_self"><img src="https://i.ytimg.com/vi/d1yNc9skssk/maxresdefault.jpg" alt="" width="430px"></a>
+        
+        <a href="velozes.html" target="_self"><img src="https://i.ytimg.com/vi/F2-BLKAidao/maxresdefault.jpg" alt="" width="430px"></a>
+        
+        <h3>E imagen dinamica</h3>
+        <h5>Personagem mais brabo dos mangas:</h5>
+        <h3>E audios</h3>
+        <p style="">Coldplay:Paradise</p> 
+        <audio src="musicas/Coldplay - Paradise (Official Video).mp3" controls autoplay></audio>
+        <br>
+        <p>Teto:Dia azul</p>
+        <audio src="musicas/Teto - Dia Azul.mp3" controls autoplay></audio> 
+        <br>
+        <p>Wiu:Coração de gelo</p>
+        <audio src="musicas/WIU - Coração de Gelo.mp3" controls autoplay></audio>
+        <br>
+        <p>XXXTENTACION:MOONLIGHT</p>
+        <audio src="musicas/XXXTENTACION - MOONLIGHT (OFFICIAL MUSIC VIDEO).mp3" controls autoplay></audio>
+        <br>
+    </main>
+    <br>
+    <picture style="width: 500px;">
+        <source media="(max-width: 500px)" srcset="imagen/pequenosung.jpg" type="image/jpg">
+        <source media="(max-width: 720px)" srcset="imagen/mediopequenosung.jpg" type="image/jpg">
+        <source media="(max-width: 900px)" srcset="imagen/mediosung.jpg" type="image/jpg">
+        <source media="(max-width: 1100px)" srcset="imagen/grademediosung.jpg" type="image/jpg">
+        <img src="imagen/gradesung.jpg" alt="" >
+    </picture>
+</body>
+</html>

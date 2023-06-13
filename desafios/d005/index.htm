@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social</title>
+
+    <link rel="shortcut icon" href="../../exercicios/ex004/favicon.ico" type="image/x-icon">
+
+    <style>
+        :root {
+            --cor0:rgb(189, 189, 189);
+            --cor1:rgb(160, 160, 160);
+            --cor2: rgb(134, 123, 123);
+            --cor3:gray;
+            --cor4: dimgray;
+            --cor5: rgb(51, 51, 83);
+            
+            
+
+            
+
+        }
+
+        *{
+            margin: 0px;
+        }
+
+        body {
+            background-color: var(--cor1);
+        }
+
+        header {
+            background-image: linear-gradient(to bottom, var(--cor1), var(--cor4));
+            color: var(--cor2);
+            text-align: center;
+            padding: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 1.5em;
+            text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.678);
+        }
+
+        
+        img#autor {
+            border-radius: 20%;
+            display: block;
+            margin: auto;
+        }
+
+        main {
+            padding: 20px;
+            text-align: justify;
+            margin: auto;
+
+            min-width: 320;
+            max-width: 800px;
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        main h1 {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.5em;
+            
+        }
+        main h1#subtitulo{
+            font-size: 2.7em;
+            text-align: center;
+            color: var(--cor4);
+            margin-top: -15px;
+            
+        }
+
+        main > h1 {
+            color: var(--cor3);
+            font-size: 2em;
+        }
+         
+        main p {
+            line-height: 1.5em;
+            font-size: 1.1em;
+        }
+
+        main a {
+            text-decoration: none;
+            color: var(--cor3);
+            transition: 0.4s;
+        }
+
+        main a:hover {
+            text-decoration: underline;
+            background-color: var(--cor0);
+            color:var(--cor4);
+        }
+
+        main li {
+            font-size: 1.09em;
+        }
+
+        footer {
+            text-align: center;
+            background-color: var(--cor3);
+            color: var(--cor5);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.8em;
+            padding: 1px;
+        }
+        
+
+
+    
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Minhas redes sociais</h1>
+    </header>
+
+    <main>
+        <article>
+
+            <h1 id="subtitulo">Quem sou eu?</h1>
+
+            
+            <p>Meu nome é <strong>Weliton Coutinho</strong>, sou aluno de Tecnologia desde 2022 e estou aprendendo HTML e CSS com o <strong>Gustavo Guanabara</strong>, no <a href="https://www.cursoemvideo.com/" hreflang="pt-br" target="_blank" rel="noffolow">cursoemvideo</a>, estou muito animado para dominar completamente essas tecnologias e comessar trabalhar com isso rapido. Ainda pretendo aprender liguagens de programação esse ano como: JavaScript, Python, PHP e Java dentre outras. Mais antes de aprender liguagens de programação queria dominar completamente as tecnologias necessarias para ser um <strong>Desevolvedor Web.</strong></p>
+        </article>
+        <h1>Como falar comigo?</h1>
+        <aside>
+            <ul>
+                <li><img src="imagens/insta.png" alt="intagram do autor do site" width="20px"><a href="https://instagram.com/weliton.coutinho.585?igshid=ZDdkNTZiNTM=" target="_blank" rel="external">/welitoncoutinho</a> - Me segue lá no Instagram.</li>
+                <li><img src="imagens/face.png" alt="" width="23px"><a href="https://www.facebook.com/weliton.coutinho.585?mibextid=ZbWKwL" target="_blank" rel="external">/welitoncoutinho</a> - Me acompanha lá no Facebook.</li>
+                <li><img src="imagens/watts.png" alt="" width="25px"><a href="https://wa.me/5533998018197?text=Ol%C3%A1%20vc%20j%C3%A1%20conseguiu%20oq%20queria" target="_blank" rel="external">/welintoncoutinho</a> - Mande mensagem lá no WhastApp.</li>
+                <li><img src="imagens/twiter.png" alt="" width="17px"><a href="https://twitter.com/WelitonC0t1nh0?t=VUTf7m3SE7ZHADOa0fB2Fg&s=09" target="_blank" rel="external">/WelitonC0t1nh0</a> - Me segue lá no Twiter.</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Feito pelo Weliton Coutinho</p>
+    </footer>
+</body>
+</html>

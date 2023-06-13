@@ -1,0 +1,72 @@
+@charset "UTF=8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap');
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(45deg, #D6221E, #D6AE0C);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    width: 650px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px #4e2616;
+    text-align: center;
+    
+}
+
+h1{
+    color: #171b6e;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 70px;
+    font-weight: bold;
+}
+h2{
+    color: #9e2a2a;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 50px;
+    font-weight: bold;
+}
+h3{
+    color: #16632e;
+    font-family: 'IM Fell French Canon', serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+h4{
+    color: #921311;
+    font-family: 'IM Fell French Canon', serif;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+li{
+   margin: auto; 
+}
+mark{
+    background-color: #F72925;
+}
+strong{
+    color: #d68a11;
+}
+p{
+  font: italic bold 1.1em arial, helvetica, sans-serif;
+  
+}
+ul, dl, ol{
+    text-align: justify;
+
+}
+
+  
