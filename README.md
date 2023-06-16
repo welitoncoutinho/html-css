@@ -48,3 +48,23 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios
 <a href="https://welitoncoutinho.github.io/html-css/exercicios/ex021/index.html" target="_blank">Executar o exercício 021</a>
 
 <h1>Desafios</h1>
+
+<a href="https://welitoncoutinho.github.io/html-css/desafios/d001/index.html">Executar o desafio 001</a>
+
+<a href="https://welitoncoutinho.github.io/html-css/desafios/d002/index.html">Executar o desafio 002</a>
+
+<a href="https://welitoncoutinho.github.io/html-css/desafios/d003/index.html">Executar o desafio 003</a>
+
+<a href="https://welitoncoutinho.github.io/html-css/desafios/d004/index.html">Executar o desafio 004</a>
+
+<a href="https://welitoncoutinho.github.io/html-css/desafios/d005/index.html">Executar o desafio 005</a>
+
+<a href="https://welitoncoutinho.github.io/html-css/desafios/d006/index.html">Executar o desafio 006</a>
+
+<a href="https://welitoncoutinho.github.io/html-css/desafios/d007/index.html">Executar o desafio 007</a>
+
+<a href="https://welitoncoutinho.github.io/html-css/desafios/d008/index.html">Executar o desafio 008</a>
+
+<a href="https://welitoncoutinho.github.io/html-css/desafios/d009/index.html">Executar o desafio 009</a>
+
+<a href="https://welitoncoutinho.github.io/html-css/desafios/d010/index.html">Executar o desafio 010</a>
