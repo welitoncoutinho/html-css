@@ -3,6 +3,8 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios
 
+<h1>Exercissios</h1>
+
 <a href="https://welitoncoutinho.github.io/html-css/exercicios/ex001/index.html">Executar o exercício 001</a>
 
 <a href="https://welitoncoutinho.github.io/html-css/exercicios/ex002/index.html">Executar o exercício 002</a>
@@ -44,3 +46,5 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios
 <a href="https://welitoncoutinho.github.io/html-css/exercicios/ex020/index.html">Executar o exercício 020</a>
 
 <a href="https://welitoncoutinho.github.io/html-css/exercicios/ex021/index.html">Executar o exercício 021</a>
+
+<h1>Desafios</h1>
