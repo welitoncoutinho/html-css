@@ -47,6 +47,8 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios
 
 <a href="https://welitoncoutinho.github.io/html-css/exercicios/ex021/index.html" target="_blank">Executar o exercício 021</a>
 
+<a href="https://welitoncoutinho.github.io/html-css/exercicios/ex022/fundo001" target="_blank">Executar o exercício 022</a>
+
 <h1>Desafios</h1>
 
 <a href="https://welitoncoutinho.github.io/html-css/desafios/d001/index.html">Executar o desafio 001</a>
