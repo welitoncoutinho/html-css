@@ -3,20 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posicionamento</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;*/
+            
+
+            /*Shorthand - background
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center top no-repeat fixed;
             background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 2px solid rgba(0, 0, 139, 0.479);
@@ -27,7 +36,7 @@
 <body>
     <main>
         <h1>Teste de Imagen e Fundo</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam totam temporibus nemo quia eveniet possimus, libero, nulla minus eum illum porro cumque recusandae aliquam ipsa assumenda voluptatibus labore architecto et. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut excepturi autem ipsa asperiores rem quis labore voluptas optio eum, voluptatum enim sit, numquam modi et inventore aliquid mollitia ex nisi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem possimus, ducimus at a ratione, veniam corporis fuga corrupti totam facilis consectetur molestias quasi neque iure esse rem aliquam consequatur nihil.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam totam temporibus nemo quia eveniet possimus, libero, nulla minus eum illum porro cumque recusandae aliquam ipsa assumenda voluptatibus labore architecto et. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut excepturi autem ipsa asperiores rem quis labore voluptas optio eum, voluptatum enim sit, numquam modi et inventore aliquid mollitia ex nisi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem possimus, ducimus at a ratione, veniam corporis fuga corrupti totam facilis consectetur molestias quasi neque iure esse rem aliquam consequatur nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi vel doloribus quae nobis eos tempora, distinctio illum quasi ex dolorem, commodi, eligendi nesciunt magni! Nulla, eum officiis? Sed, ipsam non. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias nulla dolorum quas eveniet, similique quia iusto magnam quos voluptatem cumque suscipit, minima qui laudantium? Quo accusamus labore qui reiciendis vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nisi autem doloribus non? Omnis dignissimos nobis veritatis aliquid asperiores, consequatur debitis harum temporibus. Error blanditiis obcaecati iure libero eos vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel possimus in facilis, libero dolor recusandae vitae aperiam sequi magni iusto numquam reiciendis impedit quaerat laborum eum, nobis nulla blanditiis odit? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse cupiditate officiis aut neque minus mollitia tempora quod facilis excepturi. Recusandae asperiores dolore illo a ipsam repellendus amet dicta ipsa accusantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem distinctio quo, veniam magnam temporibus aut doloribus ab sint maxime, eaque iste, deserunt corporis assumenda nulla quae reiciendis sit culpa ipsum? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat temporibus praesentium nostrum deleniti. Laboriosam quo corrupti consequuntur pariatur omnis, quidem ad blanditiis soluta esse ullam dolorem porro obcaecati vitae nobis.</p>
         <nav>
             <a href="fundo001.html">Fundo 1</a>
             <a href="fundo002.html">Fundo 2</a>
