@@ -28,7 +28,7 @@ header p.titulo {
 
 header > p#creditos {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-size: 1em;
 
 }
 
@@ -44,8 +44,8 @@ header a:hover {
 main  p {
     font-family: 'Sriracha', cursive;
     font-size: 3.5vw;
-    padding: 50px 0px 50px 25px;
-    line-height: 50px;
+    padding: 60px 0px 50px 30px;
+    line-height: 200%;
 }
 
 section#efeito {
@@ -54,6 +54,7 @@ section#efeito {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    min-height: 500px;
     position: relative;
 }
 
@@ -63,16 +64,39 @@ section#paralax {
     background-position: left center;
     background-size: cover;
     background-attachment: fixed;
-    height: 500px;
+    min-height: 500px;
     position: relative;
 }
 
-p.dentrodoefeito {
+p.dentrodoparalax {
     position: absolute;
     top: 60px;
     left: 30px;
     padding: 5px;
-    width: 310px;
+    min-width: 310px;
     background-color: rgba(0, 0, 0, 0.479);
     color: white;
+}
+
+p.dentrodoparalax {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    padding: 5px;
+    min-width: 310px;
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+footer p {
+    
+    padding: 5px;
 }
