@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         
         caption {
@@ -24,13 +25,26 @@
         td,th {
             border: 1px solid black;
             text-align: left;
-            padding: 10px;
-            
+            padding: 10px; 
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
 
         thead,tfoot {
             background-color: gray;
             color: blanchedalmond;
+        }
+
+        tbody > tr:nth-child(odd){ /*2n-1*/
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even) { /*2n*/
+            background-color: lightgray;
         }
 
         td.num {
@@ -176,5 +190,10 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam at fugiat aspernatur totam dolore rerum fugit beatae quod quis, amet exercitationem. Molestias earum, aperiam fugit voluptates voluptatum adipisci praesentium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, molestias? Voluptates impedit id molestias exercitationem ab nesciunt ratione cum accusantium assumenda magnam? Autem nulla eos aspernatur ducimus animi sint id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor neque, sed nisi, iste doloribus, tempore doloremque quibusdam expedita fuga quas blanditiis a inventore accusantium? Iusto dolor assumenda nihil enim consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla temporibus reiciendis blanditiis quidem fugit aperiam, consectetur distinctio amet sed aut minus sunt a dolores, dolor ipsa asperiores iste suscipit vitae?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam at fugiat aspernatur totam dolore rerum fugit beatae quod quis, amet exercitationem. Molestias earum, aperiam fugit voluptates voluptatum adipisci praesentium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, molestias? Voluptates impedit id molestias exercitationem ab nesciunt ratione cum accusantium assumenda magnam? Autem nulla eos aspernatur ducimus animi sint id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor neque, sed nisi, iste doloribus, tempore doloremque quibusdam expedita fuga quas blanditiis a inventore accusantium? Iusto dolor assumenda nihil enim consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla temporibus reiciendis blanditiis quidem fugit aperiam, consectetur distinctio amet sed aut minus sunt a dolores, dolor ipsa asperiores iste suscipit vitae?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam at fugiat aspernatur totam dolore rerum fugit beatae quod quis, amet exercitationem. Molestias earum, aperiam fugit voluptates voluptatum adipisci praesentium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, molestias? Voluptates impedit id molestias exercitationem ab nesciunt ratione cum accusantium assumenda magnam? Autem nulla eos aspernatur ducimus animi sint id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor neque, sed nisi, iste doloribus, tempore doloremque quibusdam expedita fuga quas blanditiis a inventore accusantium? Iusto dolor assumenda nihil enim consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla temporibus reiciendis blanditiis quidem fugit aperiam, consectetur distinctio amet sed aut minus sunt a dolores, dolor ipsa asperiores iste suscipit vitae?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam at fugiat aspernatur totam dolore rerum fugit beatae quod quis, amet exercitationem. Molestias earum, aperiam fugit voluptates voluptatum adipisci praesentium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, molestias? Voluptates impedit id molestias exercitationem ab nesciunt ratione cum accusantium assumenda magnam? Autem nulla eos aspernatur ducimus animi sint id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor neque, sed nisi, iste doloribus, tempore doloremque quibusdam expedita fuga quas blanditiis a inventore accusantium? Iusto dolor assumenda nihil enim consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla temporibus reiciendis blanditiis quidem fugit aperiam, consectetur distinctio amet sed aut minus sunt a dolores, dolor ipsa asperiores iste suscipit vitae?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam at fugiat aspernatur totam dolore rerum fugit beatae quod quis, amet exercitationem. Molestias earum, aperiam fugit voluptates voluptatum adipisci praesentium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, molestias? Voluptates impedit id molestias exercitationem ab nesciunt ratione cum accusantium assumenda magnam? Autem nulla eos aspernatur ducimus animi sint id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor neque, sed nisi, iste doloribus, tempore doloremque quibusdam expedita fuga quas blanditiis a inventore accusantium? Iusto dolor assumenda nihil enim consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla temporibus reiciendis blanditiis quidem fugit aperiam, consectetur distinctio amet sed aut minus sunt a dolores, dolor ipsa asperiores iste suscipit vitae?</p>
 </body>
 </html>
