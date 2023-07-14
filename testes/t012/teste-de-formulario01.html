@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de teste</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando o aprendisado em formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" required placeholder="Primeiro nome" minlength="2" maxlength="20" autocomplete="name">
+            </p>
+          
+            <p>
+                <label for="isobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="isobrenome" placeholder="Sobrenome de preferencia" required minlength="3" maxlength="20">
+            </p>
+          
+            <p>
+                <label for="inomepai">Nome do Pai</label>
+                <input type="text" name="nomepai" id="inomepai" placeholder="Somente primeiro nome do Pai" size="22" required maxlength="15" minlength="3">
+            </p>
+            
+            <p>
+                <label for="inomemae">Nome da Mãe</label>
+                <input type="text" name="nomemae" id="inomemae" placeholder="Somente primeiro nome da Mãe" size="23" required maxlength="15" minlength="2">
+            </p>
+            <p>
+                <label for="idds">Idade</label>
+                <input type="number" name="ida" id="idds" placeholder="Sua" min="10" max="20">
+            </p>
+            <p>
+                <label for="iddp">Idade</label>
+                <input type="number" name="ida" id="iddp" placeholder="Pai" min="20" max="100">
+            </p>
+            <p>
+                <label for="idd">Idade</label>
+                <input type="number" name="ida" id="iddm" placeholder="Mãe" min="20" max="100">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Dados esportivos</legend>
+            <p>Esportes que você pratica:</p>
+
+            <input type="checkbox" name="bas" id="ibas">
+            <label for="ibas">Basquete</label>
+            <br>
+            <input type="checkbox" name="fut" id="ifut">
+            <label for="ifut">Futebol</label>
+            <br>
+            <input type="checkbox" name="vol" id="ivol">
+            <label for="ivol">Volei</label>
+            <br>
+            <input type="checkbox" name="had" id="ihad">
+            <label for="ihad">Handbol</label>
+            <br>
+            <input type="checkbox" name="que" id="ique">
+            <label for="ique">Queimada</label>
+            <br>
+            <input type="checkbox" name="pet" id="ipet">
+            <label for="ipet">Peteca</label>
+            <br>
+            <input type="checkbox" name="ten" id="iten">
+            <label for="iten">Tenis</label>
+            <br>
+            <input type="text" name="outro" id="ioutro" placeholder="Outro Esporte">
+            <br>
+            <p>Esporte Favorito:</p>
+
+            <input type="radio" name="espf" id="ribas">
+            <label for="ribas">Basquete</label>
+            <br>
+            <input type="radio" name="espf" id="rifut">
+            <label for="rifut">Futebol</label>
+            <br>
+            <input type="radio" name="espf" id="rivol">
+            <label for="rivol">Volei</label>
+            <br>
+            <input type="radio" name="espf" id="rihad">
+            <label for="rihad">Handbol</label>
+            <br>
+            <input type="radio" name="espf" id="rique">
+            <label for="rique">Queimada</label>
+            <br>
+            <input type="radio" name="espf" id="ripet">
+            <label for="ripet">Peteca</label>
+            <br>
+            <input type="radio" name="espf" id="riten">
+            <label for="riten">Tenis</label>
+            <br>
+            <input type="text" name="outro" id="rioutro" placeholder="Outro Esporte">
+        </fieldset>
+        <fieldset>
+            <legend>Dados Importantes</legend>
+            <p>
+                <label for="iest">Estado onde Mora:</label>
+                <select name="est" id="iest">
+                    <optgroup label="Região Sudeste">
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="ES">Espirito Santo</option>
+                    </optgroup>
+                    <optgroup label="Região Nordeste">
+                        <option value="MA">Maranhão</option> 
+                        <option value="PI">Piauí</option>
+                        <option value="CE">Ceará</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="BA">Bahia</option>
+                    </optgroup>
+                    <optgroup label="Região Sul">
+                        <option value="PR">Paraná </option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="SC">Santa Catarina</option>
+                    </optgroup>
+                    <optgroup label="Região Centro-Oeste">
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="GO">Goiás </option>
+                    </optgroup>
+                    <optgroup label="Região Norte">
+                        <option value="AM">Amazonas</option>
+                        <option value="RR">Roraima</option>
+                        <option value="AP">Amapá</option>
+                        <option value="PA">Pará</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="AC">Acre</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <label for="icep">Qual o seu CEP</label>
+                <input type="number" name="cep" id="icep">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
