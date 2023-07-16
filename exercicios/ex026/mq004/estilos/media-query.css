@@ -2,7 +2,16 @@
 
 /*Todas as demais mídias*/
 
+/*Typical device Breakpoints
+Celular: até 480px
+
+*/
+
 @media print {
+
     
+}
+
+@media screen {
     
 }
