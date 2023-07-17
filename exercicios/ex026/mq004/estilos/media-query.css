@@ -27,6 +27,11 @@ Grandes telas: acima de 1200px
         border: 2px solid black;
     }
 
+    main::after {
+        content: 'Essa impressão foi feita atraves do site www.corsoemvideo.com ';
+        text-decoration: overline;
+    }
+
     main h1 {
         text-shadow: none;
         color: black;
@@ -38,10 +43,7 @@ Grandes telas: acima de 1200px
     img#pc { display: none; }
     img#tv { display: none; }
 
-    main::after {
-        contain: 'Essa impressão foi feita atraves do site www.corsoemvideo.com ';
-        text-decoration: overline;
-    }
+    
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) { /* TABLET */
