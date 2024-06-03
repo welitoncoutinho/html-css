@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de FlexBox</title>
+    <style>
+        .container{
+            width: 60vw;
+            height: 60vh;
+            background: radial-gradient(yellow 30%, red);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        #item1{
+            align-self: end;
+            border-radius: 50%;
+            width: 20%;
+            height: 20%;
+            background-color: rgb(30, 212, 6);
+        }
+
+        #item2{
+            border-radius: 50%;
+            width: 20%;
+            height: 20%;
+            background-color: rgb(9, 211, 2);
+        }
+
+        .item{
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container" >
+        <div id="item1" class="item">
+
+        </div>
+        <div id="item2" class="item">
+
+        </div>
+    </div>
+</body>
+</html>
