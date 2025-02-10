@@ -7,31 +7,42 @@
     <style>
         div.container{
             background-color: lightsalmon;
-            height: 400px;
+            
+            
             display: flex;
-            flex-flow: row wrap;
-            align-items: start;
-            align-self: center;
+            flex-flow: row nowrap;
+            
         }
         div.item{
             background-color: lightskyblue;
             border: 1px solid black;
             text-align: center;
-            padding: 20px;
-            
+            flex-basis: 150px;
+        }
+
+        div#i1{
+            flex-shrink: 0;
+            flex-grow: 1;
+        }
+
+        div#i2{
+            flex-shrink: 2;
+            flex-grow: 0;
+        }
+
+        div#i3{
+            flex-shrink: 1;
+            flex-grow: 0;
         }
 
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
-        <div class="item">F</div>
-        <div class="item">G</div>
+        <div class="item" id="i1">A</div>
+        <div class="item" id="i2">B</div>
+        <div class="item" id="i3">C</div>
+        
     </div>
 </body>
 </html>
