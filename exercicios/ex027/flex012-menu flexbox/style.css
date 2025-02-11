@@ -18,15 +18,38 @@ header{
     background-color: gray;
     color: white;
     padding: 10px;
+
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header>h1{
-    border: dotted black 1px;
+    flex: 0 0 200px;
+    text-shadow: 2px 2px 0 rgb(31, 31, 31);
 }
 
 header>nav{
-    border: dotted black 1px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+header>nav>a{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+header>nav>a:hover{
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s;
 }
 
 main{
